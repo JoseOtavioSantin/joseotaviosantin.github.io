@@ -1,0 +1,74 @@
+body {
+  background-color: #121212; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte */
+  margin: 5;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #00c5ff; /* Cor dos títulos */
+}
+
+form {
+  background-color: #222; /* Cor de fundo do formulário */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #333; /* Cor de fundo dos campos de entrada */
+  border: none;
+  border-radius: 5px;
+  color: #fff; /* Cor do texto nos campos de entrada */
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #00c5ff; /* Cor de fundo do botão de envio */
+  border: none;
+  border-radius: 5px;
+  color: #fff; /* Cor do texto do botão de envio */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0099cc; /* Cor de fundo do botão de envio ao passar o mouse */
+  color: #000;
+}
+
+/* Lista de tarefas */
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.taskItem {
+  background-color: #333; /* Cor de fundo dos itens da lista de tarefas */
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.taskItem input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.task-red {
+  background-color: #ff3333; /* Vermelho */
+}
+
+.task-yellow {
+  background-color: #ffff33; /* Amarelo */
+  color: #000; /* Cor do texto */
+}

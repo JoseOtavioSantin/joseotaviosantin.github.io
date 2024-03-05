@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TAREFAS</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>TAREFAS</h1>
+<form id="addTaskForm">
+  <label for="taskName">NOVA TAREFA:</label>
+  <input type="text" id="taskName" name="taskName" required><br>
+  <label for="taskDescription">DESCRIÇÃO:</label>
+  <textarea id="taskDescription" name="taskDescription" rows="4" cols="50"></textarea><br>
+  <label for="taskDueDate">DATA VENCIMENTO:</label>
+  <input type="date" id="taskDueDate" name="taskDueDate"><br>
+  <button type="submit">ADICIONAR</button>
+</form>
+
+<!-- Lista de tarefas -->
+<h2>PRÓXIMAS TAREFAS</h2>
+<ul id="taskList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
